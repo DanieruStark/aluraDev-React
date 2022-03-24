@@ -1,6 +1,7 @@
 .campo-boxes{
     display: flex;
     flex-wrap: wrap;
+    width: auto;
 }
 
 .campo-highlight-comunidade {

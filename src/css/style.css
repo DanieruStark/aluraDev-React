@@ -15,8 +15,6 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: left;
-    margin: 1.9%;
-    margin-top: 3%;
 }
 
 .input {
