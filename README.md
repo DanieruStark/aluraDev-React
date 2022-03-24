@@ -51,7 +51,7 @@ você pode vizualizar o código de duas maneiras:
 
 - Você pode baixar esse projeto no seu computador a através da biblioteca React ver a página no **[http://localhost:3000 ]()**;
 
-- Você também pode ver a página através do **[GitHub Pages](https://https://aluradev-react.vercel.app)**
+- Você também pode ver a página através do **[Vercel](https://aluradev-react.vercel.app)**
 
 ## Considerações finais
 
