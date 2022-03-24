@@ -6,7 +6,7 @@
 .campo-highlight-comunidade {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     margin-bottom: 3%;
     margin-left: 6.7%;
     height: 32rem;
@@ -34,7 +34,7 @@
 
 .code-area--comunidade {
     width: 100%;
-    height: 12rem;
+    height: 15rem;
     border-radius: 8px;
     border: none;
     background-color: black;
