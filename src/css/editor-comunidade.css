@@ -1,0 +1,223 @@
+.campo-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.campo-highlight-comunidade {
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    margin-bottom: 3%;
+    margin-left: 6.7%;
+    height: 29rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    transition: background-color 300ms ease-out;
+}
+
+.campo-highlight-comunidade:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transition: background-color 300ms ease-out;
+}
+
+.box-texto--comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 16rem;
+    background: #6BD1FF;
+    padding: 1.5rem 2.7rem;
+    border-radius: 8px;
+    
+}
+
+.code-area--comunidade {
+    width: 100%;
+    height: 12rem;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    resize: none;
+    outline: none;
+    padding: 3rem 1rem;
+    background-image: url('../imagens/mac_buttons.svg');
+    background-repeat: no-repeat;
+    background-position: 3% 4.5%;
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+
+.nomeProjeto {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 1.8rem 1.8rem 0 1.8rem;
+}
+
+.descricaoComunidade {
+    font-size: 0.8rem;
+    font-weight: normal;
+    line-height: 1.5rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0.5rem 1.8rem 0.5rem 1.8rem;
+    
+}
+
+.interact-comunidade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.interact-buttons {
+    display: flex;
+    margin-left: 0.5rem;
+}
+
+.coments-box {
+    display: flex;
+    margin: 0.3rem;
+    margin-right: 0rem;
+    border-radius: 1rem;
+    transition: background-color 300ms ease-out;
+}
+
+.coments-box:hover {
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 1rem;
+    margin: 0.2rem;
+    transition: background-color 300ms ease-out;
+}
+
+.like-box {
+    display: flex;
+    margin: 0.3rem;
+    margin-left: 0rem;
+    border-radius: 1rem;
+    transition: background-color 300ms ease-out;
+}
+
+.like-box:hover {
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 1rem;
+    margin: 0.2rem;
+    margin-left: 0rem;
+    transition: background-color 300ms ease-out;
+}
+
+.img-coments {
+    margin: 0.5rem;
+    margin-right: 0.2rem;
+    width: 1rem;
+}
+
+.coments {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0.5rem;
+    margin-right: 0.7rem;
+}
+
+.img-like {
+    margin: 0.5rem;
+    margin-right: 0.2rem;
+    width: 1rem;
+}
+
+.like {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0.5rem;
+}
+
+.menu-login--comunidade {
+    display: flex;
+    justify-content: right;
+    width: 15%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: default;
+    transition: background-color 300ms ease-out;
+}
+
+.perfil:hover{
+    background-color: rgba(255, 255, 255, .2);
+    transition: background-color 300ms ease-out;
+
+}
+
+.nome-perfil {
+    margin-left: .5rem;
+    font-size: 1rem;
+}
+
+.img-perfil--comunidade {
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 1300px){
+    .campo-highlight-comunidade {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 2%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 5%;
+        height: 29.5rem;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        transition: background-color 300ms ease-out;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .campo-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+
+    .campo-highlight-comunidade {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 2.2%;
+        margin-bottom: 5%;
+        height: 29.5rem;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        transition: background-color 300ms ease-out;
+    }
+
+    .nomeProjeto {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 2rem;
+        color: rgba(255, 255, 255, 0.9);
+        margin: 1.2rem 1.8rem 0 1.8rem;
+    }
+
+    .interact-comunidade {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1rem;
+        margin-bottom: 0;
+    }
+
+}

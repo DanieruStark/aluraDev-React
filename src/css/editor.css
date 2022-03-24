@@ -1,0 +1,93 @@
+.campo-highlight {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.box-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 22rem;
+    background: #6BD1FF;
+    padding: .08rem 2.7rem;
+    border-radius: 8px;
+    
+}
+
+.code-area {
+    width: 100%;
+    height: 12rem;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    resize: none;
+    outline: none;
+    padding: 3rem 1rem;
+    background-image: url('../imagens/mac_buttons.svg');
+    background-repeat: no-repeat;
+    background-position: 3% 4.5%;
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+
+.sin-highlight {
+    background-color: rgba(80, 129, 251, 0.08);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 2.1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 3.5rem;
+    transition: background-color 300ms ease-out;
+}
+
+.sin-highlight:hover{
+    background-color: rgba(80, 129, 251, 0.2);
+    transition: background-color 300ms ease-out;
+}
+
+@media screen and (max-width: 1300px){
+    .campo-highlight {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .box-texto {
+        height: 23rem;
+    }
+    
+    .code-area {
+        height: 14rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .campo-highlight {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .box-texto {
+        height: 26.8rem;
+        padding: 1rem 2.7rem;
+    }
+    
+    .code-area {
+        width: 96%;
+        height: 21rem;
+        padding: 3rem 1rem 1rem 1rem;
+        background-position: 6% 4.5%;
+        
+    }
+
+    .sin-highlight {
+        margin-top: 1.5rem;
+        height: 3rem;
+    }
+}
