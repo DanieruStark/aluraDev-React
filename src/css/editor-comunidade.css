@@ -1,7 +1,7 @@
 .campo-boxes{
     display: flex;
     flex-wrap: wrap;
-    width: auto;
+    width: 100%;
 }
 
 .campo-highlight-comunidade {
@@ -9,7 +9,7 @@
     flex-direction: column;
     width: 50%;
     margin-bottom: 3%;
-    margin-left: 8.6%;
+    margin-left: 7%;
     height: 29rem;
     background: rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
