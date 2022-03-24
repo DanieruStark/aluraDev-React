@@ -6,7 +6,7 @@
 .campo-highlight-comunidade {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 43%;
     margin-bottom: 3%;
     margin-left: 7.5%;
     height: 29rem;
@@ -168,7 +168,7 @@
     width: 1.5rem;
 }
 
-@media screen and (max-width: 1300px){
+/*@media screen and (max-width: 1300px){
     .campo-highlight-comunidade {
         display: flex;
         flex-direction: column;
@@ -220,4 +220,4 @@
         margin-bottom: 0;
     }
 
-}
+}*/
