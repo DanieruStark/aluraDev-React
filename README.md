@@ -46,7 +46,7 @@ Também é possível interagir através de comentário e curtidas.
 Durante o Projeto decidi ir além e aprender React JS para implementar o código, já que eu sabia que seria um ótimo projeto para colocar a lib em prática, ou seja, fui além e além de participar do desafio me desafiei a aprender uma lib nova e colocá-la em prática. Fico feliz de ter tomado essa decisão e de que tenha dado certo!
 
 ## Considerações antes de Vizualizar o Projeto
-Esse Projeto foi pensado para ser uma rede social, mas esse arquivo é um prototipo onde o único usuário é o @Harry, logo se você visitar a página comunidade antes de salvar nenhum projeto ela aparecerá vazia.
+Esse Projeto foi pensado para ser uma rede social, mas esse arquivo é um prototipo onde o único usuário é o @Harry, logo se você visitar a página comunidade antes de salvar ao menos um projeto ela aparecerá vazia.
 
 ![](/src/imagens/comunidade_vazio.jpg)
 
