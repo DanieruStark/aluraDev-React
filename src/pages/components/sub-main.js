@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../../css/dracula.css';
 import '../../css/style.css';
 import '../../css/editor.css';
@@ -18,9 +18,12 @@ function SubMain() {
 
     const CorBorda = (e) => {
         setCor(e.target.value);
-        const boxTexto = document.querySelector("[data-box-texto]");
-        return boxTexto.style.background = cor;
     }
+
+    useEffect(() => {
+        const boxTexto = document.querySelector("[data-box-texto]");
+        boxTexto.style.background = cor;
+    });
 
     const highlight = () => {
         const codeString = document.querySelector("[data-box-texto]").innerText;
@@ -41,17 +44,17 @@ function SubMain() {
         const nome = e.target.value;
         setNomeProjeto(nome);
     }
-    const handleDescricao = (e) =>{
+    const handleDescricao = (e) => {
         e.preventDefault();
         const descricao = e.target.value;
         setDescricao(descricao);
     }
 
-    function pegaID(min, max){
+    function pegaID(min, max) {
         min = Math.ceil(0);
         max = Math.floor(1000);
         return setId(Math.floor(Math.random() * (max - min)) + min);
-        
+
     }
 
     const salvarDados = () => {
@@ -59,10 +62,10 @@ function SubMain() {
         pegaID();
         db.collection('users').add({
             cor, linguagem, codeString, nomeProjeto, descricao, id
-          });
+        });
 
     }
-    
+
     return (
         <>
             <section className="campo-highlight">
