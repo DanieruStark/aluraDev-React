@@ -49,13 +49,13 @@ function Header(){
                 </button>
                 <ul className="menu-suspenso" id={click ? 'menu-suspenso-active' : ''}>
                     <li className="li-lateral foco">
-                        <a className="index" href="/#">
+                        <a className="index" href="/">
                             <img src={icon1} alt="página atual"/>
                             <p className="menu-link">Editor de Código</p>
                         </a>
                     </li>
                     <li className="li-lateral li-lateral-item">
-                        <a href="/#">
+                        <a href="/comunidade">
                             <img src={icon4} alt="ir para página comunidade"/>
                             <p className="menu-link">Comunidade</p>
                         </a>
