@@ -2,7 +2,7 @@
 
 Todos os Alura Challenges seguem o Challenge Based Learning.
 
-### Challenge Based Learning
+### `Challenge Based Learning`
 
 CBL (Challenge Based Learning) O CBL é uma forma de aprendizagem baseado em desafios, desenvolvido pelo projeto Apple Classrooms of Tomorrow-Today (ACOT2), em 2008, pelo qual foi denominado como um esforço colaborativo para designar um design para as escolas de ensino médio do século 21.
 
