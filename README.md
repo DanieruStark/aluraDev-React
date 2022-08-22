@@ -59,7 +59,7 @@ Esse Projeto foi pensado para ser uma rede social, mas esse arquivo é um protot
 
 ![](/src/imagens/comunidade_vazio.jpg)
 
-## Como posso vizualizar o código?
+## Como posso vizualizar o projeto?
 
 você pode vizualizar o código de duas maneiras:
 
