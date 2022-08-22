@@ -1,5 +1,14 @@
 # Challenge Alura - Rede Social para Programadores
 
+Todos os Alura Challenges seguem o Challenge Based Learning.
+
+### Challenge Based Learning
+
+CBL (Challenge Based Learning) O CBL é uma forma de aprendizagem baseado em desafios, desenvolvido pelo projeto Apple Classrooms of Tomorrow-Today (ACOT2), em 2008, pelo qual foi denominado como um esforço colaborativo para designar um design para as escolas de ensino médio do século 21.
+
+Com base no método a Alura desenvolveu o UX/UI Design bem como os cards do Trello simulando um Kanban do dia a dia de uma empresa de desenvolvimento.
+Ou seja toda parte front-End desse projeto foi desenvolvido pelo aluno(nesse caso eu :D).
+
 Esse projeto foi pensado e mentorado pela **[Alura](https://www.alura.com.br)**.
 
 ## Finalidade do Projeto
